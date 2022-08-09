@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-bx {
+    margin: auto;
+    width: 500px;
+    padding: 3rem 2rem;
+    background: #cccc;
+    margin-top: 20vh;
+    
+}
+
+.form-bx {
+     display: block;
+}
+
+.form-txt {
+    font-size: 20px;
+}
+
+.msg-1, .msg-2 {
+    color: red;
+    font-size: 20px;
+}
+.alert {
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#my-form label {
+    display: block;
+    margin-top: 20px;
+}
+
+#my-form input[type="text"] {
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     outline: none;
+}
+
+.btn {
+     width: 100%;
+     margin-top: 10px;
+     padding: 10px 15px;
+     border-radius: 5px;
+     background: #333;
+     color: white;
+}
